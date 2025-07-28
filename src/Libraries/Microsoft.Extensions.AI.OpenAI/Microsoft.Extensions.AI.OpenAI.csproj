@@ -4,6 +4,8 @@
     <RootNamespace>Microsoft.Extensions.AI</RootNamespace>
     <Description>Implementation of generative AI abstractions for OpenAI-compatible endpoints.</Description>
     <Workstream>AI</Workstream>
+    <PackageId>Microsoft.Extensions.AI.OpenAI.Pyrus</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup>

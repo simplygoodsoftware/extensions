@@ -4,10 +4,13 @@
     <RootNamespace>Microsoft.Extensions.AI</RootNamespace>
     <Description>Utilities for working with generative AI components.</Description>
     <Workstream>AI</Workstream>
+    <PackageId>Microsoft.Extensions.AI.Pyrus</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup>
     <Stage>normal</Stage>
+    <EnablePackageValidation>false</EnablePackageValidation>
     <MinCodeCoverage>89</MinCodeCoverage>
     <MinMutationScore>85</MinMutationScore>
   </PropertyGroup>

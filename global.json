@@ -1,6 +1,7 @@
 {
   "sdk": {
-    "version": "9.0.107"
+    "version": "9.0.0",
+    "rollForward": "latestMajor"
   },
   "tools": {
     "dotnet": "9.0.107",
